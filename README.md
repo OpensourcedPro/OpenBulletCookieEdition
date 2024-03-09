@@ -61,5 +61,15 @@ Let's move on.
 
 It is necessary to specify the CE format instead of Default and then specify the path to the file with cookies.
 
-![image](https://github.com/OpensourcedPro/OpenBulletCookieEdition/assets/139492588/a90ced9b-0021-4120-86e6-70659373cb2a)
 ![030924](https://github.com/OpensourcedPro/OpenBulletCookieEdition/assets/139492588/83d1a0b6-0d0b-424a-943d-4dc4178888c8)
+
+
+WE CREATE A GET REQUEST!
+
+
+But first, I advise you to validate the cookie, if you don’t do this, then screw it!!!
+
+For your service it may be something else, but for most cookies the most important thing in a cookie is sessionid - if it is not there, then you can safely throw the cookie into trouble, since without sessionid (or any other needed cookie value ) the rest of that domains's cookies have no meaning.
+
+
+# **Create a get request:**
